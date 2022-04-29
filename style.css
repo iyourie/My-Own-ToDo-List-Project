@@ -1,0 +1,46 @@
+
+body {
+  display: flex;
+  justify-content: space-around;
+  font-family: monospace;
+  text-transform: capitalize;
+}
+.div {
+  border: 1px solid;
+  width: 170px;
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.button {
+  transform: translate(187px, -27px);
+  padding: 4px;
+  cursor: pointer;
+}
+aside div {
+  border: red;
+  color: red;
+  transition: 0.2s;
+}
+aside div:hover {
+  box-shadow: 2px 2px 2px red;
+}
+div:hover {
+  box-shadow: 2px 2px 2px black;
+}
+aside .button {
+  transform: -100px;
+  -webkit-transform: -100px;
+  -moz-transform: -100px;
+  -ms-transform: -100px;
+  -o-transform: -100px;
+}
+p{
+  text-transform: lowercase;
+  border: solid 1px;
+  padding: 5px;
+  font-weight: bold;
+  height: 50px;
+}
